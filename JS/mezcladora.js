@@ -18,7 +18,7 @@ const Albumnes = [
     'Rightfully (TV Animation Goblin Slayer OP)',
     'Intrauterine Education',
     'To Kill a Living Book - for Library of Ruina',
-    'Flowerworks (EP)',
+    'Flowerworks (Single)',
     'Dandelions & Bento Boxes',
     'Between Two Worlds (EP)', 'Fly, My Wings (Single)',
     'Key Ingridient' 
@@ -36,7 +36,14 @@ const Duracion = [
     '4:01',
 ]
 const Portadas = [
-   
-
-
+    portada1.jpg, portada1.jpg,
+    portada2.jpg, portada2.jpg, portada2.jpg, portada2.jpg,
+    portada3.jpg, portada3.jpg, portada3.jpg, portada3.jpg,
+    portada4.jpg,
+    portada5.jpg,
+    portada6.jpg,
+    portada7.jpg,
+    portada8.jpg,
+    portada9.jpg, portada10.jpg,
+    portada11.jpg
 ]
