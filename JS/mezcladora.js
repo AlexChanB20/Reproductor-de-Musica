@@ -1,53 +1,4 @@
-// Datos de las canciones
-const NombreCancion = [
-    'Nine Point Eight','Chocological',
-    'Unidentified Flavorful Object', 'Space Colony', 'Sl0t', 'Colorful',
-    'Camelia','Lemonade','Extension of You', 'Fossil',
-    'Though Our Path May Diverge',
-    'Petrolea',
-    'Poems of a Machine',
-    'Flowerworks',
-    'Bento Box Bivouac',
-    'Between Two Worlds', 'Fly, My Wings',
-    'Chocological (Key Ingridient)'
-]
-const Albumnes = [
-    'Mag Mell', 'Mag Mell',
-    'Miracle Milk', 'Miracle Milk', 'Miracle Milk', 'Miracle Milk',
-    'Millenium Mother', 'Millenium Mother', 'Millenium Mother', 'Millenium Mother',
-    'Rightfully (TV Animation Goblin Slayer OP)',
-    'Intrauterine Education',
-    'To Kill a Living Book - for Library of Ruina',
-    'Flowerworks (Single)',
-    'Dandelions & Bento Boxes',
-    'Between Two Worlds (EP)', 'Fly, My Wings (Single)',
-    'Key Ingridient' 
-]
-const Duracion = [
-    '3:10', '4:20',
-    '4:04', '3:13', '4:50', '4:02',
-    '4:39', '3:10', '4:51', '3:34',
-    '3:18',  
-    '4:21',
-    '4:34',
-    '3:45',
-    '4:14',
-    '4:55', '3:14',
-    '4:01',
-]
-const Portadas = [
-    portada1.jpg, portada1.jpg,
-    portada2.jpg, portada2.jpg, portada2.jpg, portada2.jpg,
-    portada3.jpg, portada3.jpg, portada3.jpg, portada3.jpg,
-    portada4.jpg,
-    portada5.jpg,
-    portada6.jpg,
-    portada7.jpg,
-    portada8.jpg,
-    portada9.jpg, portada10.jpg,
-    portada11.jpg
-]
-
+// Construyendo Clase para reproducir las canciones
 class Reproductor {
     constructor(songs) {
         this.songs = songs;
@@ -136,21 +87,21 @@ class Reproductor {
 }
 
 const songs = [
-    { title: "Canción 1", album: "Álbum 1",  duration: "3:45", albumCover: "https://via.placeholder.com/200" },
-    { title: "Canción 2", album: "Álbum 1",  duration: "4:20", albumCover: "https://via.placeholder.com/200" },
-    { title: "Canción 3", album: "Álbum 2",  duration: "3:30", albumCover: "https://via.placeholder.com/200" },
-    { title: "Canción 4", album: "Álbum 2",  duration: "4:00", albumCover: "https://via.placeholder.com/200" },
-    { title: "Canción 5", album: "Álbum 3",  duration: "3:15", albumCover: "https://via.placeholder.com/200" },
-    { title: "Canción 6", album: "Álbum 3",  duration: "3:55", albumCover: "https://via.placeholder.com/200" },
-    { title: "Canción 7", album: "Álbum 4",  duration: "4:10", albumCover: "https://via.placeholder.com/200" },
-    { title: "Canción 8", album: "Álbum 4",  duration: "3:20", albumCover: "https://via.placeholder.com/200" },
-    { title: "Canción 9", album: "Álbum 5",  duration: "3:40", albumCover: "https://via.placeholder.com/200" },
-    { title: "Canción 10", album: "Álbum 5", duration: "4:30", albumCover: "https://via.placeholder.com/200" },
-    { title: "Canción 11", album: "Álbum 6", duration: "3:25", albumCover: "https://via.placeholder.com/200" },
-    { title: "Canción 12", album: "Álbum 6", duration: "4:15", albumCover: "https://via.placeholder.com/200" },
-    { title: "Canción 13", album: "Álbum 7", duration: "3:50", albumCover: "https://via.placeholder.com/200" },
-    { title: "Canción 14", album: "Álbum 7", duration: "4:05", albumCover: "https://via.placeholder.com/200" },
-    { title: "Canción 15", album: "Álbum 8", duration: "3:35", albumCover: "https://via.placeholder.com/200" }
+    { title: "Chocological", album: "Mag Mell",  duration: "4:20", albumCover: "Portada1.jpg/200" },
+    { title: "YUBIKIRI-GENMAN", album: "Mag Mell",  duration: "3:55", albumCover: "Portada1.jpg/200" },
+    { title: "Sl0t", album: "Miracle Milk",  duration: "4:50", albumCover: "Portada2.jpg/200" },
+    { title: "Colorful", album: "Miracle Milk",  duration: "4:02", albumCover: "Portada2.jpg/200" },
+    { title: "Extension of You", album: "Millenium Mother",  duration: "4:51", albumCover: "Portada3.jpg/200" },
+    { title: "Fossil", album: "Millenium Mother",  duration: "3:34", albumCover: "Portada3.jpg/200" },
+    { title: "Though Our Path May Diverge", album: "Rightfully (EP)",  duration: "3:18", albumCover: "Portada4.jpg/200" },
+    { title: "Petrolea", album: "Intrauterine Education",  duration: "4:21", albumCover: "Portada5.jpg/200" },
+    { title: "Poems of a Machine", album: "To Kill a Living Book",  duration: "4:34", albumCover: "Portada6.jpg/200" },
+    { title: "Flowerworks", album: "Flowerworks (Single)", duration: "3:45", albumCover: "Portada7.jpg/200" },
+    { title: "Bento Box Bivouac", album: "Dandelions & Bento Boxes", duration: "4:14", albumCover: "Portada8.jpg/200" },
+    { title: "Between Two Worlds", album: "Beetween Two Worlds (EP)", duration: "4:56", albumCover: "Portada9.jpg/200" },
+    { title: "Fly, My Wings", album: "Fly, My Wings (Single)", duration: "3:14", albumCover: "Portada10.jpg/200" },
+    { title: "Chocological (Key Ingridient)", album: "Key Ingridient", duration: "4:01", albumCover: "Portada11.jpg/200" },
+    { title: "DK", album: "Hue", duration: "2:25", albumCover: "Portada14.jpg/200" }
 ];
 
 const reproductor = new Reproductor(songs);
