@@ -1,10 +1,58 @@
 h1{
     display: flex;
-    justify-content: center;
-    font-size: 100px;
+    justify-content: space-evenly;
+    font-size: 110px;
 }
 h2{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
     font-size: 50px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.main-content {
+    flex: 2;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+#song-details {
+    display: flex;
+    align-items: center;
+}
+
+#album-cover {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+#controls {
+    margin-top: 20px;
+}
+
+button {
+    margin-right: 10px;
 }
