@@ -159,3 +159,19 @@ reproductor.songsList();
 document.getElementById("play-pause").addEventListener("click", () => {
     reproductor.playPause();
 });
+
+document.getElementById("stop").addEventListener("click", () => {
+    reproductor.stop();
+});
+
+document.getElementById("shuffle").addEventListener("click", () => {
+    reproductor.shuffle();
+});
+
+document.getElementById("prev").addEventListener("click", () => {
+    reproductor.prev();
+});
+
+document.getElementById("next").addEventListener("click", () => {
+    reproductor.next();
+});
