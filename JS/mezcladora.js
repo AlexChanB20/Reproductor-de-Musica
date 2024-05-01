@@ -87,21 +87,21 @@ class Reproductor {
 }
 
 const songs = [
-    { title: "Chocological", album: "Mag Mell",  duration: "4:20", albumCover: "Portada1.jpg/200" },
-    { title: "YUBIKIRI-GENMAN", album: "Mag Mell",  duration: "3:55", albumCover: "Portada1.jpg/200" },
-    { title: "Sl0t", album: "Miracle Milk",  duration: "4:50", albumCover: "Portada2.jpg/200" },
-    { title: "Colorful", album: "Miracle Milk",  duration: "4:02", albumCover: "Portada2.jpg/200" },
-    { title: "Extension of You", album: "Millenium Mother",  duration: "4:51", albumCover: "Portada3.jpg/200" },
-    { title: "Fossil", album: "Millenium Mother",  duration: "3:34", albumCover: "Portada3.jpg/200" },
-    { title: "Though Our Path May Diverge", album: "Rightfully (EP)",  duration: "3:18", albumCover: "Portada4.jpg/200" },
-    { title: "Petrolea", album: "Intrauterine Education",  duration: "4:21", albumCover: "Portada5.jpg/200" },
-    { title: "Poems of a Machine", album: "To Kill a Living Book",  duration: "4:34", albumCover: "Portada6.jpg/200" },
-    { title: "Flowerworks", album: "Flowerworks (Single)", duration: "3:45", albumCover: "Portada7.jpg/200" },
-    { title: "Bento Box Bivouac", album: "Dandelions & Bento Boxes", duration: "4:14", albumCover: "Portada8.jpg/200" },
-    { title: "Between Two Worlds", album: "Beetween Two Worlds (EP)", duration: "4:56", albumCover: "Portada9.jpg/200" },
-    { title: "Fly, My Wings", album: "Fly, My Wings (Single)", duration: "3:14", albumCover: "Portada10.jpg/200" },
-    { title: "Chocological (Key Ingridient)", album: "Key Ingridient", duration: "4:01", albumCover: "Portada11.jpg/200" },
-    { title: "DK", album: "Hue", duration: "2:25", albumCover: "Portada14.jpg/200" }
+    { title: "Chocological", album: "Mag Mell",  duration: "4:20", albumCover: "Portadas/Portada1.jpg" },
+    { title: "YUBIKIRI-GENMAN", album: "Mag Mell",  duration: "3:55", albumCover: "Portadas/Portada1.jpg" },
+    { title: "Sl0t", album: "Miracle Milk",  duration: "4:50", albumCover: "Portadas/Portada2.jpg" },
+    { title: "Colorful", album: "Miracle Milk",  duration: "4:02", albumCover: "Portadas/Portada2.jpg" },
+    { title: "Extension of You", album: "Millenium Mother",  duration: "4:51", albumCover: "Portadas/Portada3.jpg" },
+    { title: "Fossil", album: "Millenium Mother",  duration: "3:34", albumCover: "Portadas/Portada3.jpg" },
+    { title: "Though Our Path May Diverge", album: "Rightfully (EP)",  duration: "3:18", albumCover: "Portadas/Portada4.jpg" },
+    { title: "Petrolea", album: "Intrauterine Education",  duration: "4:21", albumCover: "Portadas/Portada5.jpg" },
+    { title: "Poems of a Machine", album: "To Kill a Living Book",  duration: "4:34", albumCover: "Portadas/Portada6.jpg" },
+    { title: "Flowerworks", album: "Flowerworks (Single)", duration: "3:45", albumCover: "Portadas/Portada7.jpg" },
+    { title: "Bento Box Bivouac", album: "Dandelions & Bento Boxes", duration: "4:14", albumCover: "Portadas/Portada8.jpg" },
+    { title: "Between Two Worlds", album: "Beetween Two Worlds (EP)", duration: "4:56", albumCover: "Portadas/Portada9.jpg" },
+    { title: "Fly, My Wings", album: "Fly, My Wings (Single)", duration: "3:14", albumCover: "Portadas/Portada10.jpg" },
+    { title: "Chocological (Key Ingridient)", album: "Key Ingridient", duration: "4:01", albumCover: "Portadas/Portada11.jpg" },
+    { title: "DK", album: "Hue", duration: "2:25", albumCover: "Portadas/Portada14.jpg" }
 ];
 
 const reproductor = new Reproductor(songs);
